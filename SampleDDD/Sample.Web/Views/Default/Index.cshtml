@@ -1,0 +1,13 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = null;
+}
+
+<h2>title</h2>
+
+@foreach (var country in Model)
+{
+    <span>@country.Name</span>
+}
